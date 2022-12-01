@@ -1,0 +1,33 @@
+.rodape {
+    height: auto;
+    margin-top: 3.5em;
+    padding: 2em 5em;
+    color: var(--branco);
+    background-color: var(--roxo-principal);
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape-links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.rodape-link {
+    font-size: 14px;
+    color: var(--branco);
+    text-decoration: none;
+}
+
+.rodape-link:hover {
+    color: rgb(217, 217, 217);
+}
+
+.rodape__copywrite {
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--branco);
+    
+}
+

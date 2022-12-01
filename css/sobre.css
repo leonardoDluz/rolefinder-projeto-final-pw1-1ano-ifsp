@@ -1,0 +1,45 @@
+.container-sobre {
+    display: grid;
+    grid-template-columns: 6;
+    grid-template-rows: 3;
+}
+
+.sobre__info {
+    margin: 2em 3em;
+}
+
+.sobre__info-principal {
+    grid-column: span 6;
+}
+
+.sobre__info-secundario {
+    grid-column: span 2;
+}
+
+.sobre__info-desenvolvedor {
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 2;
+    
+}
+
+.sobre__info_titulo {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--roxo-principal);
+
+    margin-bottom: 1em;
+
+    grid-column: span 2;
+    
+}
+
+.sobre__info_img {
+    height: 15vh;
+    margin-right: .8em;
+}
+
+.sobre__info_texto {
+    align-self: center;
+}

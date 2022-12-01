@@ -1,0 +1,55 @@
+.container-banner {
+    background-color: var(--branco);
+    margin-top: 17vh;
+}
+
+.banner {
+    margin: 3em auto 1em auto;
+    background-color: var(--branco);
+    display: flex;
+    width: 70vw;
+    height: 77vh;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+.banner__slide {
+    margin-top: 1em;
+    color: white;
+    text-align: center;
+    width: 70vw;
+    height: auto;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: 70vw;
+    background-position-y: center;
+}
+
+.banner__botoes {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+
+.banner-botao {
+    background-color: var(--roxo-principal);
+    width: 15px;
+    height: 15px;
+    margin: 0 0.5em;
+    border-radius: 100%;
+}
+
+#slide1 {background-image: url(../img/banner_lolaPalooza.jpeg);}
+#slide2 {background-image: url(../img/banner_djArana.jpeg);}
+#slide3 {
+    background-image: url(../img/mc-kevin-banner.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#slide4 {background-image: url(../img/daniel-banner.jpg);}
+#slide5 {background-image: url(../img/paiva-banner.jpg);}

@@ -1,0 +1,33 @@
+@import url(header.css);
+@import url(carrinho.css);
+@import url(banner.css);
+@import url(ingressos.css);
+@import url(rodape.css);
+@import url(anuncio.css);
+@import url(cadastro.css);
+@import url(sobre.css);
+:root{
+    --cor-de-fundo:rgb(243, 243, 243);
+    --branco:white;
+    --preto:black;
+    --roxo-principal: #8D00A4;
+    --fonte-principal:'poppins';
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+}
+
+.container {
+    width: 80vw;
+    height: auto;
+    margin: 4em auto;
+    background-color: var(--branco);
+    border-radius: 15px;
+    padding: 3em 3em 4em 3em;
+    justify-items: center;
+    box-shadow:0 5px 10px 5px rgb(173, 173, 173);
+    margin-top: 17vh;
+}
